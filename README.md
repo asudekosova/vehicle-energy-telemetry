@@ -75,7 +75,6 @@ Keep trip_review.csv in the same directory as app.py.
 - `vehicle_energy_final.ipynb`: cleaned final training/export workflow, with outputs cleared. Legacy random-row models and large exports are omitted.
 - `requirements.txt`: app dependencies with recorded training-library versions.
 - `requirements-notebook.txt`: additional notebook dependencies.
-- `BASLA_TR.md`: Turkish setup and presentation guide.
 - `VALIDATION.md`: packaging checks and limits.
 
 The full source dataset is not bundled. Attach it on Kaggle to rerun the notebook; no full-data retraining was performed during packaging. Review the dataset's current license before publishing redistributed data or model artifacts. No license for third-party data is granted by this package.
