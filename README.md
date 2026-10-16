@@ -80,3 +80,18 @@ Keep trip_review.csv in the same directory as app.py.
 The full source dataset is not bundled. Attach it on Kaggle to rerun the notebook; no full-data retraining was performed during packaging. Review the dataset's current license before publishing redistributed data or model artifacts. No license for third-party data is granted by this package.
 
 To run the final notebook locally, update its `file_path` to the downloaded source CSV and install `requirements-notebook.txt`.
+
+## Dataset attribution
+
+Dataset: Vehicle Energy & Telemetry Dataset  
+Kaggle publisher: yashdev01  
+Source: https://www.kaggle.com/datasets/yashdev01/vehicle-energy-and-telemetry-dataset  
+License listed on Kaggle: Apache License 2.0.
+
+The included trip_review.csv is a filtered journey subset of the
+source dataset. Prediction, residual, absolute-error and elapsed-time
+columns were added for this project. The model was trained on a
+200,000-row sample.
+
+The original data collection source, target unit and target
+calculation method have not been independently verified.
